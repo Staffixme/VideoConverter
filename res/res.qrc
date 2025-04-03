@@ -1,5 +1,6 @@
 <RCC>
   <qresource prefix="imgs">
+    <file>img/fluent-mdl2_completed.png</file>
     <file>img/fluent_premium-24-filled.png</file>
     <file>img/Frame 6.png</file>
     <file>img/iconamoon_close-light.png</file>
