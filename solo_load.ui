@@ -162,6 +162,10 @@
 	border-radius: 12px;
 	border: none;
 	color: white;
+}
+
+.QPushButton:hover{
+background-color: rgb(172, 22, 59);
 }</string>
    </property>
    <property name="frameShape">
