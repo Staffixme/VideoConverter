@@ -27,7 +27,7 @@
   </property>
   <property name="windowIcon">
    <iconset resource="res/res.qrc">
-    <normaloff>:/imgs/img/Frame 6.png</normaloff>:/imgs/img/Frame 6.png</iconset>
+    <normaloff>:/imgs/img/AppLogo.png</normaloff>:/imgs/img/AppLogo.png</iconset>
   </property>
   <widget class="QFrame" name="header">
    <property name="geometry">
@@ -40,18 +40,28 @@
    </property>
    <property name="styleSheet">
     <string notr="true">#header{
-background-color: qlineargradient(spread:pad, x1:0.534, y1:0, x2:0.506, y2:1, stop:0 rgba(85, 85, 85, 255), stop:1 rgba(74, 74, 74, 255));
+background-color: qlineargradient(spread:pad, x1:0.5, y1:0, x2:0.5, y2:1, stop:0 rgba(59, 59, 59, 255), stop:1 rgba(49, 49, 49, 255));
 border-top-right-radius: 12px;
 border-top-left-radius: 12px;
 }
 
 .QToolButton{
 	background-color: rgba(255, 255, 255, 0);
+	border-radius: 5px;
 }
 
 .QPushButton{
 	background-color: rgba(255, 255, 255, 0);
+	border-radius: 5px;
 	color: white
+}
+
+.QPushButton:hover{
+background-color: rgba(0, 0, 0, 50);
+}
+
+.QToolButton:hover{
+background-color: rgba(0, 0, 0, 50);
 }</string>
    </property>
    <property name="frameShape">
@@ -217,7 +227,7 @@ border-top-left-radius: 12px;
    </property>
    <property name="styleSheet">
     <string notr="true">#content{
-background-color: rgb(86, 86, 86);
+background-color: rgb(59, 59, 59);
 border-bottom-left-radius: 12px;
 border-bottom-right-radius: 12px;
 }</string>
@@ -254,10 +264,14 @@ border-bottom-right-radius: 12px;
        </property>
        <property name="styleSheet">
         <string notr="true">.QToolButton{
-	background-color: qlineargradient(spread:pad, x1:0.534, y1:0, x2:0.506, y2:1, 		stop:0 rgba(85, 85, 85, 255), stop:1 rgba(74, 74, 74, 255));
+	background-color: qlineargradient(spread:pad, x1:0.5, y1:0, x2:0.5, y2:1, stop:0 rgba(59, 59, 59, 		255), stop:1 rgba(49, 49, 49, 255));
 	border-radius: 12px;
 	border: 1px solid rgba(255, 255, 255, 20);
 	color: white;
+}
+
+.QToolButton:hover{
+	background-color: #2F2F2F;
 }</string>
        </property>
        <property name="text">
@@ -294,10 +308,14 @@ border-bottom-right-radius: 12px;
        </property>
        <property name="styleSheet">
         <string notr="true">.QToolButton{
-	background-color: qlineargradient(spread:pad, x1:0.534, y1:0, x2:0.506, y2:1, 		stop:0 rgba(85, 85, 85, 255), stop:1 rgba(74, 74, 74, 255));
+	background-color: qlineargradient(spread:pad, x1:0.5, y1:0, x2:0.5, y2:1, stop:0 rgba(59, 59, 59, 255), stop:1 rgba(49, 49, 49, 255));
 	border-radius: 12px;
 	border: 1px solid rgba(255, 255, 255, 20);
 	color: white;
+}
+
+.QToolButton:hover{
+	background-color: #2F2F2F;
 }</string>
        </property>
        <property name="text">
