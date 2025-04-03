@@ -1,0 +1,15 @@
+<RCC>
+  <qresource prefix="imgs">
+    <file>img/fluent_premium-24-filled.png</file>
+    <file>img/Frame 6.png</file>
+    <file>img/iconamoon_close-light.png</file>
+    <file>img/iconamoon_file-light.png</file>
+    <file>img/material-symbols_edit-outline-rounded.png</file>
+    <file>img/mynaui_minus.png</file>
+    <file>img/octicon_video-24.png</file>
+    <file>img/pajamas_long-arrow.png</file>
+    <file>img/qlementine-icons_user-16.png</file>
+    <file>img/system-uicons_files-multi.png</file>
+    <file>img/Vector.png</file>
+  </qresource>
+</RCC>
