@@ -261,6 +261,11 @@ class Ui_Form(object):
 "\n"
 "")
         self.FormatBox.setObjectName("FormatBox")
+        video_formats = [
+                ".mp4", ".avi", ".mkv", ".mov", ".flv", ".wmv", ".webm", ".mpg", ".m4v",
+                ".3gp", ".ogv", ".vob", ".asf", ".ts", ".swf", ".f4v", ".rmvb"
+        ]
+        self.FormatBox.addItems(video_formats)
         self.verticalLayout_4.addWidget(self.FormatBox)
         self.verticalLayout_3.addLayout(self.verticalLayout_4)
         self.horizontalLayout_2.addLayout(self.verticalLayout_3)
