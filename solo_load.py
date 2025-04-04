@@ -317,3 +317,4 @@ class Ui_Form(object):
         self.Title_4.setText(_translate("Form", "Конвертированный файл"))
         self.CloudConvertButton.setText(_translate("Form", "Облачная конвертация"))
         self.ConvertButton.setText(_translate("Form", "Конвертировать"))
+

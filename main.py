@@ -21,6 +21,7 @@ logging.basicConfig(level=logging.DEBUG, format='%(asctime)s - %(levelname)s - %
 is_login = False
 login = ""
 
+
 dotenv.load_dotenv()
 print(os.getenv("HOST"))
 
